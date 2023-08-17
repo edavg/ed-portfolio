@@ -2,6 +2,8 @@ import React from 'react'
 import hero from '../assets/heroimg2.jpg'
 import {BsFillArrowRightSquareFill} from 'react-icons/bs'
 
+
+
 const Home = () => {
 return (
 <div name="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800'>
@@ -15,7 +17,7 @@ return (
             <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-green-900 cursor-pointer'>
                 Portfolio
                 <span className='group-hover:rotate-90 duration-500'>
-                    <BsFillArrowRightSquareFill size={15} className='ml-1'/>
+                    <BsFillArrowRightSquareFill size={15} className='ml-1'/> 
                 </span>
             </button>
         </div>
