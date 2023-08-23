@@ -18,12 +18,12 @@ const Social = () => {
     {
       id: 3,
       child: (<>Correo <HiOutlineMail size={20}/></>),
-      href: 'mailto:foo@gmail.com',
+      href: 'mailto:eduardo.avg95@gmail.com',
     },
     {
       id: 4,
       child: (<>Curriculum <BsFillPersonLinesFill size={20}/></>),
-      href: '/resume.pdf',
+      href: '/Eduardo Villamayor Curriculum.pdf',
       style: "rounded-br-md",
       download: true,
     }
