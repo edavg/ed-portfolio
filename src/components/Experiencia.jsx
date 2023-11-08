@@ -55,7 +55,7 @@ const Experiencia = () => {
             </div>
             <div className='w-full grid grid-cols-2 md:grid-cols-3 gap-6 text-center py-12 px-6 sm:px-0'>
                 {exp.map(({id, src, tittle, style}) => (
-                <div key={id} className={`shadow-md hover:scale-105 duration-500 rounded-lg ${style}`} >
+                <div key={id} className={`shadow-md hover:scale-105 duration-500 rounded-3xl ${style}`} >
                 <img src={src} alt="" className='w-20 mx-auto'/>
                 <p className='mt-4'>{tittle}</p>
                 </div>
